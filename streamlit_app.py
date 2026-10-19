@@ -6,7 +6,7 @@ from snowflake.snowpark.functions import col
 # New section to display smoothiefroot nutrition information
 import requests  
 # Utilisez uniquement l'URL pure entre les guillemets
-smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
+#smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
 #st.text(smoothiefroot_response.json())
 
 # Write directly to the app.
