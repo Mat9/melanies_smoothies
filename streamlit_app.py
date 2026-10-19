@@ -53,3 +53,6 @@ import requests
 # Utilisez uniquement l'URL pure entre les guillemets
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
 st.text(smoothiefroot_response.json())
+
+# Pour afficher les données réelles à l'écran
+sf_df = st.dataframe(data=smoothiefroot_response.json(), use_container_width=True)
